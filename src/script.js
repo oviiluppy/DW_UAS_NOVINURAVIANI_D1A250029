@@ -215,7 +215,7 @@ document.addEventListener("DOMContentLoaded", () => {
   ============================= */
 
 (function () {
-  emailjs.init("6ifwGgJ0t5RPXMMLt");
+  emailjs.init("OBVXbVYh_COc7uqWK");
 })();
 
 const form = document.getElementById("contactForm");
@@ -228,7 +228,7 @@ form.addEventListener("submit", function (e) {
   statusText.className = "text-sky-400";
 
   emailjs
-    .send("service_riqy5c8", "template_q4cx5rj", {
+    .send("service_10vdztq", "template_7r8yo3v", {
       name: document.getElementById("name").value,
       email: document.getElementById("email").value,
       message: document.getElementById("message").value,
